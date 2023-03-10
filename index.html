@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <!--  Fonts Google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Inter:wght@400;700&family=Qwitcher+Grypen:wght@400;700&family=Ruthie&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c738bf7aa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+ 
+    <div class="nav__header">
+        <nav class="nav">
+            <button class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav__menu">
+                <li class="nav__menu__item">
+                    <a href="#home" class="nav__menu__link nav__link">
+                        Home
+                    </a>
+                <li class="nav__menu__item">
+                    <a href="#about" class="nav__menu__link nav__link">
+                        About me
+                    </a>
+                <li class="nav__menu__item">
+                    <a href="#abilities" class="nav__menu__link nav__link">
+                        Skills
+                    </a>
+                <li class="nav__menu__item">
+                    <a href="#portfolio" class="nav__menu__link nav__link">
+                        Portfolio
+                    </a>
+                <li class="nav__menu__item">
+                    <a href="#contact" class="nav__menu__link nav__link nav__menu__link__active">
+                        Contact me
+                    </a>
+            </ul>
+        </nav>
+    </div>
+ 
+    <header id="home" class="header__container">
+        <div class="header__izq">
+        
+            <h1>
+                Daniela S. De Simone
+            </h1>
+            <p>
+                Full Stack <br>
+                <span>Developer
+                </span>
+            </p>
+           
+            <div class="icons__container">
+                <a href="https://www.linkedin.com/in/dsdesimone/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/dsdesimone" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://app.netlify.com/teams/dsdesimone/overview" target="_blank">
+                    <i class="fa-solid fa-eye"></i>
+                </a>
+            </div> 
+        </div> 
+        <div class="header__der">
+            <h2><a href="./Assets/Photos/Daniela De Simone - Resumee.pdf" target="_blank">CV</a></h2>
+            <img src="./Assets/Photos/photo dani.jpg" alt="Presentation photo">
+        </div>
+    </header>
+
+    <main>
+
+        <article id="about" class="about">
+            <div class="about__text">
+                <h3 class="title about__title">
+                    About me
+                </h3>
+                <p class="text about__text">
+                    My name is Daniela De Simone, and I am from Buenos Aires Argentina.
+                    I graduated in UBA (Universidad de Buenos Aires) and got my medical degree. 
+                    Then, I discovered my passion in designing and developing web and mobile pages and apps.
+                    <br><br>
+                    I started studying web developing on Academlo and Open Bootcamp, where I learned to use JS, HTML, CSS, REACT, GIT, and also basic knowledge of JAVA and GOLAND.
+                    <br><br>
+                    Nowadays, I try to gather the skills that both of my careers gave me: my critical thinking and creativity, and use them in creating digital solutions for my clients.
+                    I love investigating, learning, and working on new challenges and goals in order to become a better person and professional every day.
+                </p>     
+            </div>
+            <div class="about__icons">
+                <div>
+                    <img src="./Assets/Photos/ob_logo-removebg-preview.png" alt="">
+                    <div class="icons__text">
+                        <h5>
+                            Open Bootcamp
+                        </h5>
+                        <p>
+                            2022-2023
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Assets/Photos/logo academlo 5.png" alt="">
+                    <div class="icons__text">
+                        <h5>
+                            Academlo
+                        </h5>
+                        <p>
+                            2023-In progress
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="abilities" class="abilities">
+            <h3 class="title abilities__title">
+                Hard Skills
+            </h3>
+            <div class="hard__skills__container">
+                <div class="hard__skill js__box">
+                    <a class="hard__skill__icon"><i class="fa-brands fa-js"></i></a>
+                    <p>JavaScript</p>
+                </div>
+                <div class="hard__skill html__box">
+                    <a class="hard__skill__icon"><i class="fa-brands fa-html5"></i></a>
+                    <p>HTML 5</p>
+                </div>
+                <div class="hard__skill css__box">
+                    <a class="hard__skill__icon"><i class="fa-brands fa-css3-alt"></i></a>
+                    <p>CSS</p>
+                </div>
+                <div class="hard__skill react__box">
+                    <a class="hard__skill__icon"><i class="fa-brands fa-react"></i></a>
+                    <p>React</p>
+                </div>
+                <div class="hard__skill github__box">
+                    <a class="hard__skill__icon"><i class="fa-brands fa-github"></i></a>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </article>
+
+        <article id="abilities" class="abilities">
+            <h3 class="title abilities__title">
+                Soft Skills
+            </h3>
+            <div class="soft__skills__container">
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-solid fa-shuffle"></i></a>
+                    <p>Adaptability</p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-regular fa-comments"></i></a>
+                    <p>Effective <br>
+                        comunication
+                    </p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skills__icon"><i class="fa-sharp fa-solid fa-calendar-days"></i></a>
+                    <p>Time <br>
+                    management</p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-sharp fa-solid fa-people-group"></i></a>
+                    <p>Teamwork</p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-solid fa-brain"></i></a>
+                    <p>Creative</p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-regular fa-thumbs-up"></i></a>
+                    <p>Problem <br>
+                    solving</p>
+                </div>
+                <div class="soft__skill">
+                    <a class="soft__skill__icon"><i class="fa-solid fa-chart-line"></i></i></a>
+                    <p>Initiative</p>
+                </div>
+        </article>
+
+        
+
+
+        <article id="portfolio" class="portfolio">
+            <div class="portfolio__title__container">
+                <h3 class="title portfolio__title">
+                    Portfolio
+                </h3>
+            </div>
+
+            <div class="porfolio__items">
+                <div class="portfolio__photos">
+                    <div class="first__portfolio portfolio vector">
+                        <a href="https://testimonials-grid-dsdesimone.netlify.app/" target="_blank">
+                            <img class="portfolio__img" src="./Assets/Photos/testmonialsGrid.jpg" alt="">
+                        </a>
+                    </div>   
+                </div>
+                <div class="portfolio__photos">
+                    <div class="second__portfolio portfolio vector">
+                        <a href="https://fortune-cards.netlify.app/" target="_blank">
+                            <img class="portfolio__img" src="./Assets/Photos/fortuneCards.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio__photos">
+                    <div class="third__portfolio portfolio vector">
+                        <a href="https://dsdesimone-counter.netlify.app/" target="_blank">
+                            <img class="portfolio__img" src="./Assets/Photos/counter.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio__photos">
+                    <div class="fourth__portfolio vector">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="contact" class="contact">
+            <h3 class="title contact__title">Contact me</h3>
+            <div class="contact__options">
+                <div class="contact__method contact__phone">
+                    <a href="tel:5526895424">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <h4>Cell Phone</h4>
+                    <p>+541164351302</p>
+                </div>
+                <div class="contact__method contact__email">
+                    <a href="mailto:example@correo.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <h4>E-mail</h4>
+                    <p>dsdesimone8@gmail.com</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p class="footer">Hecho con &#9829 por dsdesimone</p>
+    </footer>
+    <!--! Archivo JS -->
+    <script src="./Assets/Javascript/main.js"></script>
+</body>
+
+</html>
