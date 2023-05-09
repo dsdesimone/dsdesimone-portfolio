@@ -1052,7 +1052,7 @@ html{
         width: 300px;
     }
     .contact__box__title{
-        font-size: 20px;
+        font-size: 24px;
     }
     .contact__box__list{
         flex-direction: column;
@@ -1063,7 +1063,7 @@ html{
         font-size: 40px;
     }
     .contact__box__item-text{
-        font-size: 10px;
+        font-size: 16px;
     }
 }
 @media (max-width: 350px){
