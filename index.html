@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Daniela De Simone</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c738bf7aa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main__page">
+        <!-- Fondo animado -->
+        <div class="bg__animated">
+            <span class="one delay-1"> => </span>
+            <span class="two"> { } </span>
+            <span class="three delay-5"> !== </span>
+            <span class="four delay-1"> ?: </span>
+
+            <span class="one delay-3"> [ ] </span>
+            <span class="two delay-7"> => </span>
+            <span class="three delay-5"> ?: </span>
+            <span class="four delay-4"> !== </span>
+
+            <span class="one delay-2"> !== </span>
+            <span class="two delay-3"> ?: </span>
+            <span class="three delay-6"> => </span>
+            <span class="four delay-6"> { } </span>
+        </div>
+        <!-- Menu -->
+        <nav class="menu">
+            <ul class="home">
+                <li>
+                    <a href="#" class="a__home a__home-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="a__home a__home-menu">
+                        <i class="fa-solid fa-bars"></i>
+                        
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu__links">
+                <li>
+                    <a href="#" class="menu__links__home">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="bg__green">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="bg__violet">About me</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span class="bg__aqua">Portfolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <i class="fa-solid fa-star"></i>
+                        <span class="bg__yellow">Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="bg__green">Contact me</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Header -->
+        <header class="header">
+            <section class="main">
+                <div class="photo__container">
+                    <div class="vector__container">
+                        <span class="v1 vector"></span>
+                        <span class="v2 vector"></span>
+                        <span class="v3 vector"></span>
+                    </div>
+                    <img src="./assets/photos/photo-dani.png" alt="">
+                </div>
+                <div class="header__title__container">
+                    <h1>Hi! I'm Daniela De Simone</h1>
+                    <h3>FRONTEND DEVELOPER</h3>
+                </div>
+            </section>
+            <ul class="header__list">
+                <li class="header__item header__item-1"> <a class="social__icon1" href="https://www.linkedin.com/in/dsdesimone/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="header__item header__item-2"> <a class="social__icon2" href="https://github.com/dsdesimone" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li class="header__item header__item-3"> <a class="social__icon3" href="./assets/utils/cv.pdf" target="_blank"><i class="header__cv">CV</i></a></li>
+            </ul>
+        </header>
+    </div>
+    <!-- About me -->
+    <section id="about" class="about section">
+        <div class="about__card card">
+            <div class="about__title-bg">
+                <h1 class="about__title">ABOUT ME</h1>
+            </div>
+            <div class="about__text-bg">
+                <p class="about__text">My name is Daniela De Simone, and I am from Buenos Aires, Argentina.
+                    I graduated in UBA (Universidad de Buenos Aires) and got my medical degree. 
+                    Then, I discovered my passion in designing and developing web and mobile pages and apps.
+                    <br><br>
+                    I started studying web developing on Academlo and Open Bootcamp, where I learned to use JS, HTML, CSS, REACT and GIT. Since then, I have been developing multiple personal 
+                    and class projects, always looking for the most original way to design them.
+                    <br><br>
+                    Nowadays, I try to gather the skills that both of my careers gave me: my critical thinking and creativity, and use them in creating digital solutions for my clients.
+                    I love investigating, learning, and working on new challenges and goals in order to become every day a better person and professional.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio section">
+        <h1 class="portfolio__title">Portfolio</h1>
+        <div class="conteItemsCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel1">
+                <h3 class="project__title">Rick and Morty</h3>
+                <div>
+                    <a href="https://dsdesimone-rickandmorty.netlify.app/" target="_blank" class="tarjetaCarrusel tarjetaCarrusel1">
+                        <img src="./assets/photos/portfolio/rm/1.jpg" alt="">
+                    </a>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel4">
+                            <i class="fa-solid fa-caret-left"></i>
+                        </a>
+                        <a href="#itemCarrusel2">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="technologies technologies1">
+                        <img src="./assets/photos/logos/react.png" alt="">
+                        <img src="./assets/photos/logos/javascript.jpg" alt="">
+                        <img src="./assets/photos/logos/html.png" alt="">
+                        <img src="./assets/photos/logos/css.png" alt="">
+                        <img src="./assets/photos/logos/axios.png" alt="">
+                        <img src="./assets/photos/logos/github.png" alt="">
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel2">
+                <h3 class="project__title">User List with CRUD</h3>
+                <div>
+                    <a href="https://dsdesimone-users.netlify.app" target="_blank" class="tarjetaCarrusel tarjetaCarrusel1">
+                        <img src="./assets/photos/portfolio/user/1.jpg" alt="">
+                    </a>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel1">
+                            <i class="fa-solid fa-caret-left"></i>
+                        </a>
+                        <a href="#itemCarrusel3">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="technologies technologies1">
+                        <img src="./assets/photos/logos/react.png" alt="">
+                        <img src="./assets/photos/logos/javascript.jpg" alt="">
+                        <img src="./assets/photos/logos/html.png" alt="">
+                        <img src="./assets/photos/logos/css.png" alt="">
+                        <img src="./assets/photos/logos/axios.png" alt="">
+                        <img src="./assets/photos/logos/react-hook-form.png" alt="">
+                        <img src="./assets/photos/logos/github.png" alt="">
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel3">
+                <h3 class="project__title">Weather App - Geolocation</h3>
+                <div>
+                    <a href="https://dsdesimone-weather-app.netlify.app/" target="_blank" class="tarjetaCarrusel tarjetaCarrusel1">
+                        <img src="./assets/photos/portfolio/weather/1.jpg" alt="">
+                    </a>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel2">
+                            <i class="fa-solid fa-caret-left"></i>
+                        </a>
+                        <a href="#itemCarrusel4">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="technologies technologies1">
+                    <img src="./assets/photos/logos/react.png" alt="">
+                    <img src="./assets/photos/logos/javascript.jpg" alt="">
+                    <img src="./assets/photos/logos/html.png" alt="">
+                    <img src="./assets/photos/logos/css.png" alt="">
+                    <img src="./assets/photos/logos/axios.png" alt="">
+                    <img src="./assets/photos/logos/github.png" alt="">
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel4">
+                <h3 class="project__title">CountryPedia</h3>
+                <div>
+                    <a href="https://countrypedia-dsdesimone.netlify.app" target="_blank" class="tarjetaCarrusel tarjetaCarrusel1">
+                        <img src="./assets/photos/portfolio/countrypedia/1.jpg" alt="">
+                    </a>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel3">
+                            <i class="fa-solid fa-caret-left"></i>
+                        </a>
+                        <a href="#itemCarrusel1">
+                            <i class="fa-solid fa-caret-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="technologies technologies1">
+                        <img src="./assets/photos/logos/react.png" alt="">
+                        <img src="./assets/photos/logos/javascript.jpg" alt="">
+                        <img src="./assets/photos/logos/html.png" alt="">
+                        <img src="./assets/photos/logos/css.png" alt="">
+                        <img src="./assets/photos/logos/axios.png" alt="">
+                        <img src="./assets/photos/logos/github.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="skills section">
+        <div class="skills__container">
+            <div class="skills__title__bg">
+                <h1 class="skills__title">Skills</h1>
+            </div>
+            <ul class="skills__list">
+                <li class="skills__item first"><img class="skills__item-logo" src="./assets/photos/logos/react.png"></img><span class="skills__item-text">React</span></li>
+                <li class="skills__item second"><img class="skills__item-logo" src="./assets/photos/logos/redux.png"></img><span class="skills__item-text">Redux</span></li>
+                <li class="skills__item third"><img class="skills__item-logo" src="./assets/photos/logos/css.png"></img><span class="skills__item-text">CSS</span></li>
+                <li class="skills__item fourth"><img class="skills__item-logo" src="./assets/photos/logos/html.png"></img><span class="skills__item-text">HTML</span></li>
+                <li class="skills__item fifth"><img class="skills__item-logo" src="./assets/photos/logos/javascript.jpg"></img><span class="skills__item-text">JavaScript</span></li>
+                <li class="skills__item sixth"><img class="skills__item-logo" src="./assets/photos/logos/axios.png"></img><span class="skills__item-text">Axios</span></li>
+                <li class="skills__item seventh"><img class="skills__item-logo" src="./assets/photos/logos/react-hook-form.png"></img><span class="skills__item-text">React Hook Form</span></li>
+                <li class="skills__item eighth"><img class="skills__item-logo" src="./assets/photos/logos/react-router-dom.png"></img><span class="skills__item-text">React Router Dom</span></li>
+            </ul>
+        </div>
+        
+        
+    
+        <!-- <div class="soft__skills__container">
+            <div class="soft__skill skill1">
+                <a class="soft__skill__icon1"><i class="fa-solid fa-shuffle"></i></a>
+                <p>Adaptability</p>
+            </div>
+            <div class="soft__skill skill2">
+                <a class="soft__skill__icon2"><i class="fa-regular fa-comments"></i></a>
+                <p>Effective <br>
+                    comunication
+                </p>
+            </div>
+            <div class="soft__skill skill3">
+                <a class="soft__skills__icon3"><i class="fa-sharp fa-solid fa-calendar-days"></i></a>
+                <p>Time <br>
+                management</p>
+            </div>
+            <div class="soft__skill skill4">
+                <a class="soft__skill__icon4"><i class="fa-sharp fa-solid fa-people-group"></i></a>
+                <p>Teamwork</p>
+            </div>
+            <div class="soft__skill skill5">
+                <a class="soft__skill__icon5"><i class="fa-solid fa-brain"></i></a>
+                <p>Creative</p>
+            </div>
+            <div class="soft__skill skill6">
+                <a class="soft__skill__icon6"><i class="fa-regular fa-thumbs-up"></i></a>
+                <p>Problem <br>
+                solving</p>
+            </div>
+            <div class="soft__skill skill7">
+                <a class="soft__skill__icon7"><i class="fa-solid fa-chart-line"></i></i></a>
+                <p>Initiative</p>
+            </div> -->
+    </section>
+    <!-- Contact me -->
+    <section id="contact" class="contact section">
+        <div class="contact__bg card"></div>
+        <div class="contact__box">
+            <h1 class="contact__box__title">Let's get in touch!</h1>
+            <ul class="contact__box__list">
+                <li class="contact__box__item">
+                    <a class="contact__box__item-icon" href="https://www.linkedin.com/in/dsdesimone/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <span class="contact__box__item-text">/dsdesimone</span>
+                </li>
+                <li class="contact__box__item">
+                    <a class="contact__box__item-icon" href="mailto:dsdesimone8@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <span class="contact__box__item-text">dsdesimone8@gmail.com</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <h3 class="footer__text">Coded by @dsdesimone</h3>
+    </footer>
+</body>
+</html>
