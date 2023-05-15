@@ -614,11 +614,12 @@ html{
 }
 .flechasCarrusel a i{
     text-decoration: none;
-    color: rgb(255, 255, 255, .5);
+    color: rgb(60, 1, 85);
     font-size: 36px;
+    opacity: 0.5;
 }
 .flechasCarrusel a i:hover{
-    color: rgb(255, 255, 255, .8);
+    opacity: 1;
 }
 .technologies{
     display: flex;
